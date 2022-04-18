@@ -1,0 +1,29 @@
+/*Ejercicio 1
+Escribir un programa que imprima en la consola la frase “Hola Mundo”
+    haciendo una pausa entre palabra y palabra esperando a que el usuario 
+    presione una tecla para continuar */
+Console.WriteLine("Hello ");
+Console.ReadKey();
+Console.WriteLine("");
+Console.WriteLine("Mundo");
+
+/* Ejercicio 2
+Investigar por las secuencias de escape \n, \t , \" y \\. Escribir un programa que las 
+utilice para imprimir distintos mensajes en la consola.
+*/
+Console.WriteLine("Asi bajo una linea \n"); //deja un renglon
+Console.WriteLine("\t Uso tabulacion horizontal \t "); //mueve para el costado
+//Ninguno de los 2 puede imprimirse sin la barra inversa
+Console.WriteLine("Comillas dobles \" "); //imprime solo las comillas
+Console.WriteLine("Barra diagonal inversa \\" ); //imprime solo las barras invertidas
+
+/*Ejercicio3
+El carácter @ delante de un string desactiva los códigos de escape. Probar el siguiente
+fragmento de código, eliminar el carácter @ y utilizar las secuencias de escape necesarias
+para que el programa siga funcionando de igual manera
+*/
+string st = "c:\\windows\\system";
+Console.WriteLine(st);
+
+Console.Read();
+
