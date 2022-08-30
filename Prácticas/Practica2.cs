@@ -42,7 +42,7 @@ y luego modifica su valor*/
 4.¿Cuál es la salida por consola si no se pasan argumentos por la línea de comandos? */
 Console.WriteLine(args == null);
 Console.WriteLine(args.Length);
-//La salida por consola es falso y 0 ya que args no tiene contenido declarado.
+//La salida por consola es falso y 0 ya que args no tiene contenido declarado, no dice que sea null y no tiene tamaño.
 
 /*
 5. ¿Qué hace la instrucción? ¿asigna a la variable vector el valor null?
