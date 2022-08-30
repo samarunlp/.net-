@@ -107,4 +107,24 @@ Console.WriteLine(cad);
 /*
 10. Investigar sobre el tipo DateTime y usarlo para medir el tiempo de ejecución de los algoritmos
 implementados en el ejercicio anterior. */
+using System.Text;
+// Inicia el contador:
+DateTime start = DateTime.Now;
+ 
+
+StringBuilder cad;
+cad = new StringBuilder ("casa");
+Console.WriteLine(cad);
+cad[0] = 'C';
+Console.WriteLine(cad);
+ 
+// Para el contador e imprime el resultado:
+DateTime end = DateTime.Now;
+TimeSpan total = new TimeSpan(end.Ticks - start.Ticks);
+Console.Write( "TIEMPO: " + total.ToString() );
+
+
+/*
+11)¿Para qué sirve el método Split de la clase string? Usarlo para escribir en la consola todas
+las palabras (una por línea) de una frase ingresada por consola por el usuario. */
 
